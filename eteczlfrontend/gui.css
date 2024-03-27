@@ -1,0 +1,12 @@
+.drawer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 56px; /* Drawer abaixo do navbar */
+    width: 80%;
+    height: calc(100% - 56px); /* A altura do navbar influencia pro drawer aparecer embaixo */
+    overflow: auto;
+    background-color: gray; /*rgb(0,0,0);*/    
+    padding-top: 60px;
+}
